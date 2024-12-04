@@ -1,6 +1,11 @@
 import './App.css'
 
 import NavBar from "./components/navBar.tsx";
+import Contact from "./pages/contact.tsx";
+import Home from "./pages/home.tsx";
+import Expertise from "./pages/expertise.tsx";
+import Service from "./pages/service.tsx";
+import About from "./pages/about.tsx";
 
 function App() {
 
@@ -8,6 +13,11 @@ function App() {
     return (
         <div>
             <NavBar/>
+            <Home/>
+            <About/>
+            <Expertise/>
+            <Service/>
+            <Contact/>
 
         </div>
     )
