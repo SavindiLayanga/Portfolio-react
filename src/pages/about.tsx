@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/images/proPic.jpeg'
+// import '../assets/images/proPic.jpeg'
 
 const AboutSection: React.FC = () => {
     return (
