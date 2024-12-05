@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/Navbar.css';
-import '../assets/images/logo.jpeg'
+import '../assets/images/logo.png'
 
 const Navbar: React.FC = () => {
     return (
         <nav className="navbar">
             <div className="navbar-logo">
                 <a href="/">
-                    <img src="/src/assets/images/logo.jpeg" alt="Logo" className="logo"/>
+                    <img src="/src/assets/images/logo.png" alt="Logo" className="logo"/>
                 </a>
             </div>
             <div className="navbar-menu">
