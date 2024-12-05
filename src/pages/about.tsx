@@ -1,5 +1,6 @@
 import React from 'react';
 // import '../assets/images/proPic.jpeg'
+import '../styles/about.css'
 
 const AboutSection: React.FC = () => {
     return (
@@ -35,15 +36,13 @@ const AboutSection: React.FC = () => {
                 </div>
 
                 <div className="flex justify-center items-center space-x-2 mb-5">
-                    <img src="/src/assets/aboutpic/propic1 - Copy.jpg" alt="Pro1"
-                         className="w-20 h-100 object-cover border-4 border-black shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"/>
-                    <img src="/src/assets/aboutpic/propic2 - Copy.jpg" alt="Pro2"
-                         className="w-20 h-100 object-cover border-4 border-black shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"/>
-                    <img src="/src/assets/aboutpic/propic3 - Copy.jpg" alt="Pro3"
-                         className="w-20 h-100 object-cover border-4 border-black shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"/>
-                    <img src="/src/assets/aboutpic/propic4 - Copy.jpg" alt="Pro4"
-                         className="w-20 h-100 object-cover border-4 border-black shadow-lg hover:scale-105 transition-transform duration-300 ease-in-out"/>
+                    <img
+                        src="/src/assets/aboutpic/aboutimage.jpg"
+                        alt="Pro1"
+                        className="w-80 h-100 object-cover border-4 border-black shadow-lg custom-hover-effect"
+                    />
                 </div>
+
             </div>
         </div>
     );
