@@ -1,0 +1,25 @@
+.deleting-effect {
+    overflow: hidden; /* Ensures the text stays within the bounds */
+    white-space: nowrap; /* Prevents text wrapping */
+    border-right: 2px solid #333; /* Cursor effect */
+    animation: deleting 8s steps(15, end) infinite, blink 0.7s step-end infinite;
+}
+
+@keyframes deleting {
+    from {
+        width: 65%; /* Starts fully typed */
+    }
+    to {
+        width: 0; /* Ends fully deleted */
+    }
+}
+
+@keyframes blink {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: #333;
+    }
+}
