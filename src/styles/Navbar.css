@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #111;
+    background-color: #F4F6FF;
     padding: 10px 20px;
     position: fixed; /* Make it fixed */
     top: 0; /* Stay at the top */
@@ -25,7 +25,7 @@
 }
 
 .navbar-menu ul li a {
-    color: #fff;
+    color: #939185;
     text-decoration: none;
     font-weight: bold;
 }
