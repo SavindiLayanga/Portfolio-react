@@ -6,6 +6,7 @@ import Home from "./pages/home.tsx";
 import Expertise from "./pages/expertise.tsx";
 import Service from "./pages/service.tsx";
 import About from "./pages/about.tsx";
+import Skills from "./pages/skills.tsx";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
             <NavBar/>
             <Home/>
             <About/>
+            <Skills/>
             <Expertise/>
             <Service/>
             <Contact/>
