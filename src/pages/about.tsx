@@ -12,22 +12,16 @@ const AboutSection: React.FC = () => {
                         I am a Front End Developer
                     </p>
                     <br />
-                    <p className="text-gray-600">
-                        My journey started at Matara Mahinda Rajapakse College where I completed General Level (O/L) in 2018
-                        and Advanced Level (A/L) in 2021.
+                    <p className="text-gray-600 fa-align-justify">
+                        My journey in the world of technology began at Matara Mahinda Rajapakse College, where I successfully completed my General Level (O/L) in 2018 and Advanced Level (A/L) in 2021.
                     </p>
                     <br />
-                    <p className="text-gray-600">
-                        I am currently studying at Panadura Institute of Software Engineering (IJSE) and am committed to
-                        improving my skills and knowledge in the field. I have a strong foundation in HTML, CSS, and JavaScript,
-                        and am particularly adept at bringing design concepts to life with precision and creativity. I have a
-                        good knowledge of Java, and my real passion lies in the design aspects of software development.
+                    <p className="text-gray-600 fa-align-justify">
+                        Currently, I am pursuing my studies at the Panadura Institute of Software Engineering (IJSE), where I am dedicated to honing my skills and expanding my knowledge in the field. I have a solid foundation in HTML, CSS, and JavaScript, and I excel at transforming design concepts into fully functional and aesthetically pleasing web interfaces. Additionally, I possess a good understanding of Java, although my true passion lies in the design aspects of software development.
                     </p>
                     <br />
-                    <p className="text-gray-600">
-                        I am known for my innovative approach to design and my commitment to creating seamless user
-                        experiences. I continuously explore new technologies and best practices to stay ahead of the
-                        fast-evolving field of web development.
+                    <p className="text-gray-600 fa-align-justify">
+                        Renowned for my innovative approach to design and my dedication to crafting seamless user experiences, I am continuously exploring new technologies and best practices to keep pace with the rapidly evolving field of web development.
                     </p>
                 </div>
 
