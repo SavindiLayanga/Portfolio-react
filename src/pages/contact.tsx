@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
                                     type="text"
                                     name="name"
                                     className="w-full border border-gray-300 rounded-md p-2 mt-2"
-                                    placeholder="Your name"
+                                    // placeholder="Your name"
                                     value={formData.name}
                                     onChange={handleChange}
                                     required
@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
                                     type="email"
                                     name="email"
                                     className="w-full border border-gray-300 rounded-md p-2 mt-2"
-                                    placeholder="Your email"
+                                    // placeholder="Your email"
                                     value={formData.email}
                                     onChange={handleChange}
                                     required
@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
                                     type="text"
                                     name="phone"
                                     className="w-full border border-gray-300 rounded-md p-2 mt-2"
-                                    placeholder="Phone #"
+                                    // placeholder="Phone #"
                                     value={formData.phone}
                                     onChange={handleChange}
                                 />
@@ -78,7 +78,7 @@ const Contact: React.FC = () => {
                                     type="text"
                                     name="company"
                                     className="w-full border border-gray-300 rounded-md p-2 mt-2"
-                                    placeholder="Company name"
+                                    // placeholder="Company name"
                                     value={formData.company}
                                     onChange={handleChange}
                                 />
