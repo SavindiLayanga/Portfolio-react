@@ -1,3 +1,5 @@
+import {FaCode, FaDesktop, FaPencilAlt} from 'react-icons/fa';
+
 const ProcessSection = () => {
     return (
         <section className="bg-gray-50 py-12" id="service">
@@ -6,16 +8,16 @@ const ProcessSection = () => {
                     What services <span className="text-orange-500">are available from me?</span>
                 </h2>
                 <p className="text-gray-600 mb-12 max-w-lg mx-auto">
-                    I provide one-stop service for you. <br/> My goal is to reduce the hassle and save you time.
+                    I provide one-stop service for you. <br /> My goal is to reduce the hassle and save you time.
                 </p>
 
                 <div
                     className="flex flex-col md:flex-row justify-center items-start space-y-8 md:space-y-0 md:space-x-6">
                     {/* Step 1 */}
-                    <div className="relative bg-white p-8 rounded-lg shadow-md w-full md:w-1/3">
+                    <div className="relative bg-white p-8 rounded-lg shadow-md w-full md:w-1/3 hover:border-2 hover:border-orange-500">
                         <div
-                            className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-orange-500 text-white text-lg rounded-full w-12 h-12 flex items-center justify-center font-bold">
-                            01
+                            className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-orange-500 text-white rounded-full w-12 h-12 flex items-center justify-center">
+                            <FaDesktop className="text-xl" />
                         </div>
                         <h3 className="mt-6 font-semibold text-lg">Web Development</h3>
                         <p className="text-gray-500 mt-2">
@@ -25,10 +27,10 @@ const ProcessSection = () => {
                     </div>
 
                     {/* Step 2 */}
-                    <div className="relative bg-white p-8 rounded-lg shadow-md w-full md:w-1/3">
+                    <div className="relative bg-white p-8 rounded-lg shadow-md w-full md:w-1/3 hover:border-2 hover:border-orange-500">
                         <div
-                            className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-orange-500 text-white text-lg rounded-full w-12 h-12 flex items-center justify-center font-bold">
-                            02
+                            className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-orange-500 text-white rounded-full w-12 h-12 flex items-center justify-center">
+                            <FaPencilAlt className="text-xl" />
                         </div>
                         <h3 className="mt-6 font-semibold text-lg">UI/UX Design</h3>
                         <p className="text-gray-500 mt-2">
@@ -38,10 +40,10 @@ const ProcessSection = () => {
                     </div>
 
                     {/* Step 3 */}
-                    <div className="relative bg-white p-8 rounded-lg shadow-md w-full md:w-1/3">
+                    <div className="relative bg-white p-8 rounded-lg shadow-md w-full md:w-1/3 hover:border-2 hover:border-orange-500">
                         <div
-                            className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-orange-500 text-white text-lg rounded-full w-12 h-12 flex items-center justify-center font-bold">
-                            03
+                            className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-orange-500 text-white rounded-full w-12 h-12 flex items-center justify-center">
+                            <FaCode className="text-xl" />
                         </div>
                         <h3 className="mt-6 font-semibold text-lg">Software Development</h3>
                         <p className="text-gray-500 mt-2">
