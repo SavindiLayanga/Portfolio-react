@@ -1,6 +1,6 @@
 const ProcessSection = () => {
     return (
-        <section className="bg-gray-50 py-12">
+        <section className="bg-gray-50 py-12" id="service">
             <div className="container mx-auto text-center px-4">
                 <h2 className="text-4xl font-semibold mb-4">
                     What services <span className="text-orange-500">are available from me?</span>
