@@ -8,7 +8,7 @@ const AboutSection: React.FC = () => {
                 <div className="block"> {/* Added 'block' class for animation */}
                     <h2 className="text-2xl font-bold text-orange-500 mb-6">About Me</h2>
                     <h2 className="text-6xl font-bold text-gray-900 mb-6">Who Am I?</h2>
-                    <p className="text-gray-500" style={{ fontSize: '20px', fontFamily: 'Arial, sans-serif' }}>
+                    <p className="text-gray-700" style={{ fontSize: '20px', fontFamily: 'Arial, sans-serif' }}>
                         I am a Front End Developer
                     </p>
                     <br />
