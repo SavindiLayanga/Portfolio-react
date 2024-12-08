@@ -7,6 +7,7 @@ import Expertise from "./pages/expertise.tsx";
 import Service from "./pages/service.tsx";
 import About from "./pages/about.tsx";
 import Skills from "./pages/skills.tsx";
+import Footer from "./components/footer.tsx";
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
             <Expertise/>
             <Service/>
             <Contact/>
-
+            <Footer/>
         </div>
     )
 }
