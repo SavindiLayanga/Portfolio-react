@@ -25,7 +25,7 @@ const Home: React.FC = () => {
                 </h3>
                 {/* Name and position */}
                 <h1 className="text-2xl lg:text-3xl font-bold text-gray-800">SAVINDI LAYANGA</h1>
-                <div className="text-lg text-gray-500 mt-2">
+                <div className="text-lg text-orange-500 mt-2">
                     <p className="inline-block deleting-effect">Front End Developer</p>
                 </div>
                 {/*description*/}
